@@ -14,3 +14,9 @@ class Config(object):
 	MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
 	MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
 	ADMINS = ['testdjango441@gmail.com']
+
+	# (venv) $ export MAIL_SERVER=smtp.googlemail.com
+	# (venv) $ export MAIL_PORT=587
+	# (venv) $ export MAIL_USE_TLS=1
+	# (venv) $ export MAIL_USERNAME=<your-gmail-username>
+	# (venv) $ export MAIL_PASSWORD=<your-gmail-password>
