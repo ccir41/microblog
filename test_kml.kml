@@ -94,7 +94,19 @@
 </Schema>
 <Folder><name>test</name>
   <Placemark>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<description><![CDATA[
+    {"borough":524, "lot":12}
+    ]]>
+    </description>
+	<lot>12</lot>
+	<Style>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<ExtendedData><SchemaData schemaUrl="#test">
 		<SimpleData name="Borough">MN</SimpleData>
 		<SimpleData name="Block">1</SimpleData>
