@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="test" id="test">
+	<SimpleField name="Borough" type="string"></SimpleField>
+	<SimpleField name="Block" type="float"></SimpleField>
+	<SimpleField name="Lot" type="int"></SimpleField>
+	<SimpleField name="CD" type="int"></SimpleField>
+	<SimpleField name="CT2010" type="string"></SimpleField>
+	<SimpleField name="CB2010" type="string"></SimpleField>
+	<SimpleField name="SchoolDist" type="string"></SimpleField>
+	<SimpleField name="Council" type="int"></SimpleField>
+	<SimpleField name="ZipCode" type="float"></SimpleField>
+	<SimpleField name="FireComp" type="string"></SimpleField>
+	<SimpleField name="PolicePrct" type="int"></SimpleField>
+	<SimpleField name="HealthCent" type="int"></SimpleField>
+	<SimpleField name="HealthArea" type="int"></SimpleField>
+	<SimpleField name="Sanitboro" type="string"></SimpleField>
+	<SimpleField name="SanitDistr" type="string"></SimpleField>
+	<SimpleField name="SanitSub" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="ZoneDist1" type="string"></SimpleField>
+	<SimpleField name="ZoneDist2" type="string"></SimpleField>
+	<SimpleField name="ZoneDist3" type="string"></SimpleField>
+	<SimpleField name="ZoneDist4" type="string"></SimpleField>
+	<SimpleField name="Overlay1" type="string"></SimpleField>
+	<SimpleField name="Overlay2" type="string"></SimpleField>
+	<SimpleField name="SPDist1" type="string"></SimpleField>
+	<SimpleField name="SPDist2" type="string"></SimpleField>
+	<SimpleField name="SPDist3" type="string"></SimpleField>
+	<SimpleField name="LtdHeight" type="string"></SimpleField>
+	<SimpleField name="SplitZone" type="string"></SimpleField>
+	<SimpleField name="BldgClass" type="string"></SimpleField>
+	<SimpleField name="LandUse" type="string"></SimpleField>
+	<SimpleField name="Easements" type="int"></SimpleField>
+	<SimpleField name="OwnerType" type="string"></SimpleField>
+	<SimpleField name="OwnerName" type="string"></SimpleField>
+	<SimpleField name="LotArea" type="float"></SimpleField>
+	<SimpleField name="BldgArea" type="float"></SimpleField>
+	<SimpleField name="ComArea" type="float"></SimpleField>
+	<SimpleField name="ResArea" type="float"></SimpleField>
+	<SimpleField name="OfficeArea" type="float"></SimpleField>
+	<SimpleField name="RetailArea" type="float"></SimpleField>
+	<SimpleField name="GarageArea" type="float"></SimpleField>
+	<SimpleField name="StrgeArea" type="float"></SimpleField>
+	<SimpleField name="FactryArea" type="float"></SimpleField>
+	<SimpleField name="OtherArea" type="float"></SimpleField>
+	<SimpleField name="AreaSource" type="string"></SimpleField>
+	<SimpleField name="NumBldgs" type="float"></SimpleField>
+	<SimpleField name="NumFloors" type="float"></SimpleField>
+	<SimpleField name="UnitsRes" type="float"></SimpleField>
+	<SimpleField name="UnitsTotal" type="float"></SimpleField>
+	<SimpleField name="LotFront" type="float"></SimpleField>
+	<SimpleField name="LotDepth" type="float"></SimpleField>
+	<SimpleField name="BldgFront" type="float"></SimpleField>
+	<SimpleField name="BldgDepth" type="float"></SimpleField>
+	<SimpleField name="Ext" type="string"></SimpleField>
+	<SimpleField name="ProxCode" type="string"></SimpleField>
+	<SimpleField name="IrrLotCode" type="string"></SimpleField>
+	<SimpleField name="LotType" type="string"></SimpleField>
+	<SimpleField name="BsmtCode" type="string"></SimpleField>
+	<SimpleField name="AssessLand" type="float"></SimpleField>
+	<SimpleField name="AssessTot" type="float"></SimpleField>
+	<SimpleField name="ExemptLand" type="float"></SimpleField>
+	<SimpleField name="ExemptTot" type="float"></SimpleField>
+	<SimpleField name="YearBuilt" type="int"></SimpleField>
+	<SimpleField name="YearAlter1" type="int"></SimpleField>
+	<SimpleField name="YearAlter2" type="int"></SimpleField>
+	<SimpleField name="HistDist" type="string"></SimpleField>
+	<SimpleField name="Landmark" type="string"></SimpleField>
+	<SimpleField name="BuiltFAR" type="float"></SimpleField>
+	<SimpleField name="ResidFAR" type="float"></SimpleField>
+	<SimpleField name="CommFAR" type="float"></SimpleField>
+	<SimpleField name="FacilFAR" type="float"></SimpleField>
+	<SimpleField name="BoroCode" type="float"></SimpleField>
+	<SimpleField name="BBL" type="float"></SimpleField>
+	<SimpleField name="CondoNo" type="float"></SimpleField>
+	<SimpleField name="Tract2010" type="string"></SimpleField>
+	<SimpleField name="XCoord" type="float"></SimpleField>
+	<SimpleField name="YCoord" type="float"></SimpleField>
+	<SimpleField name="ZoneMap" type="string"></SimpleField>
+	<SimpleField name="ZMCode" type="string"></SimpleField>
+	<SimpleField name="Sanborn" type="string"></SimpleField>
+	<SimpleField name="TaxMap" type="string"></SimpleField>
+	<SimpleField name="EDesigNum" type="string"></SimpleField>
+	<SimpleField name="APPBBL" type="float"></SimpleField>
+	<SimpleField name="APPDate" type="string"></SimpleField>
+	<SimpleField name="PLUTOMapID" type="string"></SimpleField>
+	<SimpleField name="FIRM07_FLA" type="string"></SimpleField>
+	<SimpleField name="PFIRM15_FL" type="string"></SimpleField>
+	<SimpleField name="Version" type="string"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_Area" type="float"></SimpleField>
+</Schema>
+<Folder><name>test</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#test">
+		<SimpleData name="Borough">MN</SimpleData>
+		<SimpleData name="Block">1</SimpleData>
+		<SimpleData name="Lot">10</SimpleData>
+		<SimpleData name="CD">101</SimpleData>
+		<SimpleData name="CT2010">5</SimpleData>
+		<SimpleData name="CB2010">1022</SimpleData>
+		<SimpleData name="SchoolDist">02</SimpleData>
+		<SimpleData name="Council">1</SimpleData>
+		<SimpleData name="ZipCode">10004</SimpleData>
+		<SimpleData name="FireComp">E007</SimpleData>
+		<SimpleData name="PolicePrct">1</SimpleData>
+		<SimpleData name="HealthCent">15</SimpleData>
+		<SimpleData name="HealthArea">8100</SimpleData>
+		<SimpleData name="Sanitboro">1</SimpleData>
+		<SimpleData name="SanitDistr">01</SimpleData>
+		<SimpleData name="SanitSub">3B</SimpleData>
+		<SimpleData name="Address">1 GOVERNORS ISLAND</SimpleData>
+		<SimpleData name="ZoneDist1">R3-2</SimpleData>
+		<SimpleData name="SPDist1">GI</SimpleData>
+		<SimpleData name="SplitZone">N</SimpleData>
+		<SimpleData name="BldgClass">Y4</SimpleData>
+		<SimpleData name="LandUse">08</SimpleData>
+		<SimpleData name="Easements">0</SimpleData>
+		<SimpleData name="OwnerType">X</SimpleData>
+		<SimpleData name="OwnerName">GOVERNORS ISLAND CORP</SimpleData>
+		<SimpleData name="LotArea">7736692</SimpleData>
+		<SimpleData name="BldgArea">2725731</SimpleData>
+		<SimpleData name="ComArea">2725731</SimpleData>
+		<SimpleData name="ResArea">0</SimpleData>
+		<SimpleData name="OfficeArea">0</SimpleData>
+		<SimpleData name="RetailArea">0</SimpleData>
+		<SimpleData name="GarageArea">0</SimpleData>
+		<SimpleData name="StrgeArea">0</SimpleData>
+		<SimpleData name="FactryArea">0</SimpleData>
+		<SimpleData name="OtherArea">2725731</SimpleData>
+		<SimpleData name="AreaSource">2</SimpleData>
+		<SimpleData name="NumBldgs">159</SimpleData>
+		<SimpleData name="NumFloors">0.00000000000</SimpleData>
+		<SimpleData name="UnitsRes">0</SimpleData>
+		<SimpleData name="UnitsTotal">0</SimpleData>
+		<SimpleData name="LotFront">177.61000000000</SimpleData>
+		<SimpleData name="LotDepth">0.00000000000</SimpleData>
+		<SimpleData name="BldgFront">0.00000000000</SimpleData>
+		<SimpleData name="BldgDepth">0.00000000000</SimpleData>
+		<SimpleData name="ProxCode">0</SimpleData>
+		<SimpleData name="IrrLotCode">N</SimpleData>
+		<SimpleData name="LotType">5</SimpleData>
+		<SimpleData name="BsmtCode">0</SimpleData>
+		<SimpleData name="AssessLand">104445450.00000000000</SimpleData>
+		<SimpleData name="AssessTot">166042350.00000000000</SimpleData>
+		<SimpleData name="ExemptLand">104445450.00000000000</SimpleData>
+		<SimpleData name="ExemptTot">166042350.00000000000</SimpleData>
+		<SimpleData name="YearBuilt">1900</SimpleData>
+		<SimpleData name="YearAlter1">0</SimpleData>
+		<SimpleData name="YearAlter2">0</SimpleData>
+		<SimpleData name="HistDist">Governors Island Historic District</SimpleData>
+		<SimpleData name="Landmark">INDIVIDUAL LANDMARK</SimpleData>
+		<SimpleData name="BuiltFAR">0.35000000000</SimpleData>
+		<SimpleData name="ResidFAR">0.60000000000</SimpleData>
+		<SimpleData name="CommFAR">0.00000000000</SimpleData>
+		<SimpleData name="FacilFAR">1.00000000000</SimpleData>
+		<SimpleData name="BoroCode">1</SimpleData>
+		<SimpleData name="BBL">1000010010.00000000000</SimpleData>
+		<SimpleData name="CondoNo">0</SimpleData>
+		<SimpleData name="Tract2010">0005</SimpleData>
+		<SimpleData name="XCoord">979071</SimpleData>
+		<SimpleData name="YCoord">190225</SimpleData>
+		<SimpleData name="ZoneMap">16a</SimpleData>
+		<SimpleData name="ZMCode">Y</SimpleData>
+		<SimpleData name="Sanborn">199 999</SimpleData>
+		<SimpleData name="TaxMap">10101</SimpleData>
+		<SimpleData name="APPBBL">0.00000000000</SimpleData>
+		<SimpleData name="PLUTOMapID">1</SimpleData>
+		<SimpleData name="FIRM07_FLA">1</SimpleData>
+		<SimpleData name="PFIRM15_FL">1</SimpleData>
+		<SimpleData name="Version">18v2</SimpleData>
+		<SimpleData name="Shape_Leng">12253.47716590000</SimpleData>
+		<SimpleData name="Shape_Area">9041157.16407999955</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-74.0110277008061,40.6905905542347 -74.0116457112701,40.6890158207521 -74.012479909399,40.6878132957565 -74.0144634505156,40.6868340081172 -74.0242742905683,40.6838495525687 -74.0267186528657,40.6846145018175 -74.0268530985189,40.6866486203415 -74.019762746984,40.6921273918123 -74.019161144672,40.6934924352188 -74.0180112066191,40.6936142261862 -74.0159222436644,40.6936105187674 -74.0132510207744,40.6929549633835 -74.0114114785591,40.6915302896045 -74.0110670011439,40.6909862260325 -74.0110277008061,40.6905905542347</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document>
+</kml>
